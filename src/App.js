@@ -6,17 +6,19 @@ import Contact from "./components/contact"
 import Projects from "./components/projects"
 import About from "./components/about"
 import BadPage from "./components/badpage"
+import Navbar from "./components/navbar"
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <Router>
+      <Navbar />
         <Switch>
           <Route exact path="/" render={()=> <Home />} />
-          <Route exact path="/Contact" render={() => <Contact />} />
-          <Route exact path="/Projects" render={() => <Projects />} />
-          <Route exact path="/About" render={() => <About />} />
+          <Route exact path="/contact" render={() => <Contact />} />
+          <Route exact path="/projects" render={() => <Projects />} />
+          <Route exact path="/about" render={() => <About />} />
           <Route path="*" component={BadPage}/>
         </Switch>
       </Router>
