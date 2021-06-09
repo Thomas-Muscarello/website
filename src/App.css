@@ -78,3 +78,33 @@ nav{
   transform: translateX(0%);
 }
 
+/* Blog style */
+
+.BlogsContainer {
+  padding-top: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+}
+
+.PostContainer {
+  border: 3px solid black;
+  width: 375px;
+}
+
+.Image {
+  border-bottom: 2px solid black;
+  width: 370px;
+  height: 275px;
+  object-fit: cover;
+  margin-bottom: 3%;
+}
+
+.TDContainer {
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 4%;
+}
+
