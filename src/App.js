@@ -1,13 +1,13 @@
 import logo from './logo.svg';
 import React from 'react';
-import Navbar from "./components/navbar"
+import Navbar from "./components/NavBar/index"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
-import Home from "./components/home"
-import Contact from "./components/contact"
-import Projects from "./components/projects"
-import About from "./components/about"
-import BadPage from "./components/badpage"
-import Blog from "./components/blog"
+import Home from "./components/Home/home"
+import Contact from "./components/Contact/contact"
+import Projects from "./components/Projects/projects"
+import About from "./components/About/index"
+import BadPage from "./components/BadPage/badpage"
+import Blog from "./components/Blog/blog"
 import './App.css';
 
 function App() {
