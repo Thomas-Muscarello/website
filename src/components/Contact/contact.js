@@ -5,7 +5,9 @@ class Contact extends React.Component{
     render(){
         return(
             <div id='contact'>
-                This is the Contact page
+               <h1>
+                If you would like to get in contact with me, Just click on the social media below!
+                </h1>
                 <ul>
                     <a href="https://github.com/Thomas-Muscarello">
                         <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="HTML tutorial" class="social_media">
