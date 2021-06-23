@@ -118,8 +118,10 @@ body{
 }
 
 .about{
-  width: 500px;
-  padding-left: 4%;
+  width: 1150px;
+  padding-left: 50%;
+  text-align: flex;
+  padding-top: 3%;
 }
 
 .container_1{
