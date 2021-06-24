@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React from 'react';
-import Navbar from "./components/NavBar/index"
+import Navbar from "./components/MyNav/index"
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import Home from "./components/Home/home"
 import Contact from "./components/Contact/contact"
