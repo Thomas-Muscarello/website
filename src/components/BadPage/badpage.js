@@ -6,7 +6,7 @@ function BadPage(){
         return(
             <div>
                 <h3>
-                    No Match For <code>{location.pathname}</code>
+                    Oops!, There was no match for <code>{location.pathname}</code>
                 </h3>
                 <Link to= "/">
                     Return To Home
