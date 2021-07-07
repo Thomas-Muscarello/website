@@ -16,7 +16,8 @@ const About = (props) =>{
                     <li>Ruby</li>
                  </h3>
              </h2>
-                
+            
+            <img src="selfie.png"></img>
         </div>
         )
     
