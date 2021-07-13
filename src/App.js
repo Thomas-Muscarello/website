@@ -25,6 +25,10 @@ function App() {
           <Route path="*" component={BadPage}/>
         </Switch>
       </Router>
+      <About/>
+      <Contact/>
+      <Projects/>
+      <Blog/>
     </div>
   );
 }
