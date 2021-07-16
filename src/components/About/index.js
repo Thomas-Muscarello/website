@@ -1,5 +1,7 @@
-
 import React from 'react'
+import Contact from "../Contact/contact"
+import Projects from "../Projects/projects"
+import Blog from "../Blog/blog"
 //About Page
 
 const About = (props) =>{
@@ -18,7 +20,11 @@ const About = (props) =>{
              </h2>
             
             <img src="selfie.png"></img>
+            <Contact/>
+            <Projects/>
+            <Blog/>
         </div>
+        
         )
     
 }
