@@ -18,27 +18,24 @@ class MyNav extends React.Component{
     render(){
         return(
             <div>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <img src="logo8x8.png">
-                </img>
-                <Navbar.Brand> Thomas Muscarello </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/about">About</Nav.Link>
-                        <Nav.Link href="/contact">Contact</Nav.Link>
-                        <Nav.Link href="/projects">Projects</Nav.Link>
-                        <Nav.Link href="/blog">Blog</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
                 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+                <nav>
                 <div class="logo">
-                
                     <h4>Thomas Muscarello</h4>
                 </div>
                
+               <Link to='/'> Home </Link>
+               <Link to='/'> About </Link>
+               <Link to='/'> Projects </Link>
+               <Link to='/'> Contact </Link>
+               <Link to='/'> Blog </Link>
+               <div class='menu'>
+                   <div class='line1'></div>
+                   <div class='line2'></div>
+                   <div class='line3'></div>
+               </div>
+           </nav>
             </div> 
         ) 
     }
