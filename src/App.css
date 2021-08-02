@@ -68,6 +68,8 @@ nav{
   }
   .nav-link a{
     opacity: 0;
+    background-color: #2B3837;
+    height: 50px;
   }
   .menu{
     display:block;

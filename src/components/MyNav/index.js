@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import {Navbar, Nav } from 'react-bootstrap'
 //navbar
 
 class MyNav extends React.Component{
@@ -17,26 +16,35 @@ class MyNav extends React.Component{
 
     render(){
         return(
-            <div>
-                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-
-                <nav>
+             <nav>
                 <div class="logo">
                     <h4>Thomas Muscarello</h4>
                 </div>
-               
-               <Link to='/'> Home </Link>
-               <Link to='/'> About </Link>
-               <Link to='/'> Projects </Link>
-               <Link to='/'> Contact </Link>
-               <Link to='/'> Blog </Link>
+            <ul class="nav-links">
+                <li>
+                   <a><Link to='/'> Home </Link></a>
+                </li>
+               <li>
+                    <a><Link to='/about'> About </Link></a>
+               </li>
+               <li>
+                    <a><Link to='/projects'> Projects </Link></a>
+               </li>
+               <li>
+                    <a><Link to='/contact'> Contact </Link></a>
+               </li>
+               <li>
+                    <a><Link to='/blog'> Blog </Link></a>
+               </li>
+            </ul>
+              
                <div class='menu'>
                    <div class='line1'></div>
                    <div class='line2'></div>
                    <div class='line3'></div>
                </div>
+              
            </nav>
-            </div> 
         ) 
     }
 }
