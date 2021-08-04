@@ -19,7 +19,7 @@ const About = (props) =>{
                  </h3>
              </h2>
             
-            <img src="selfie.png"></img>
+            <img src="./selfie.png"></img>
             <Contact/>
             <Projects/>
             <Blog/>
